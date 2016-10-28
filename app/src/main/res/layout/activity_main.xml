@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/showmsg"
+        android:text="Hello World!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/taking_inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:inputType="number"
+        android:background="#d9d9d9"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/guess_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Guess"
+        android:padding="15dp"
+        android:background="#d9d9d9"
+        android:layout_margin="20dp"/>
+
+
+    <Button
+        android:id="@+id/give_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Give up"
+        android:padding="15dp"
+        android:background="#d9d9d9"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
